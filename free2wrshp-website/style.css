@@ -1,0 +1,54 @@
+.index-body {
+ background-image: url(https://fakazanews.com/wp-content/uploads/2024/03/Brenden-Praise-Mpoomy-Ledwaba.jpg);
+}
+
+.index-h1 {
+  text-align: center;
+  color: white;
+}
+
+.nav-item a {
+  color: darkmagenta;
+  font-size: 25px;
+}
+
+.nav-item a:hover {
+  color: darkgrey;
+}
+.brenden-img {
+  float: left;
+  margin-right: 8px;
+  border-radius: 50%;
+  height: min-content;
+}
+
+.about-brenden {
+ margin-left: 0px;
+ overflow: auto;
+ display: block;
+}
+
+.mpoomy-h2 {
+  text-align: end;
+}
+.mpoomy-img {
+  float: right;
+  height: 200px;
+  border-radius: 50% !important;
+}
+
+.gift-container {
+  background-color: #ED9455;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-top: 7px;
+  border-radius: 16px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.gift-h2 {
+  text-align: center;
+}
