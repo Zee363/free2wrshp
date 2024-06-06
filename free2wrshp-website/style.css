@@ -15,6 +15,10 @@
 .nav-item a:hover {
   color: darkgrey;
 }
+
+.about-h1 {
+  text-align: center;
+}
 .brenden-img {
   float: left;
   margin-right: 8px;
