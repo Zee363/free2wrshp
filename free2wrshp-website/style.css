@@ -73,24 +73,21 @@
   border-radius: 10px;
   padding-right: 5px;
   padding-left: 8px;
+  padding-bottom: 5px;
   margin-right: 50px;
   margin-left: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   margin-top: 15px;
 }
 
-.carousel-container {
-  max-width: 600px;
-  margin: 0 auto;
+table {
+  border-spacing: 40px;
+  margin-left: 120px;
 }
-
- .carousel-item img {
-  height: auto;
-  max-height: 450px;
-  padding-top: 8px;
-  padding-bottom: 30px;
-  border-radius: 4px;
- }
+td {
+  padding: 15px;
+  padding-top: 10px;
+} 
 
  .events-h1, h3 {
   font-family: "Roboto", serif;
@@ -101,4 +98,33 @@
   font-family: "Merriweather", serif;
   font-weight: 100;
   font-style: italic;
+ }
+
+ .latest-h3 {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+ }
+
+  .events-container a {
+  display: block;
+  text-align: center !important;
+  color: darkmagenta;
+  padding: 8px 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  max-width: 220px;
+  padding-top: 5px;
+  margin-top: 13px;
+  margin-left: 360px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+ }
+
+ .events-container a:hover {
+  color: #fff;
+  background-color: darkmagenta;
  }
