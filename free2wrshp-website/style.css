@@ -1,19 +1,115 @@
-.index-body {
- background-image: url(https://fakazanews.com/wp-content/uploads/2024/03/Brenden-Praise-Mpoomy-Ledwaba.jpg);
+.home-body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('https://fakazanews.com/wp-content/uploads/2024/03/Brenden-Praise-Mpoomy-Ledwaba.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-container {
+  text-align: center;
+  color: #fff;
 }
 
 .index-h1 {
-  text-align: center;
+  margin-top: 15px;
   color: white;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
-.nav-item a {
+.topnav a {
   color: darkmagenta;
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: 50px;
+  text-decoration: none;
+  padding: 98px 74px 74px 98px;
+  float: none;
 }
 
-.nav-item a:hover {
+.topnav a:hover {
   color: darkgrey;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-icon__line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 65vh;
+  width: 0;
+  background-color: darkgray;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  z-index: 1000;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 50px 20px;
+}
+
+.nav__item {
+  margin: 20px 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: darkmagenta;
+}
+
+#menu-toggle:checked + .menu-icon + .nav {
+  width: 170px;
+}
+
+/* Change Menu Icon to Cross */
+#menu-toggle:checked + .menu-icon .menu-icon__line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-toggle:checked + .menu-icon .menu-icon__line:nth-child(2) {
+  opacity: 0;
+}
+
+#menu-toggle:checked + .menu-icon .menu-icon__line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 .about-container {
@@ -31,6 +127,7 @@
   font-weight: 900;
   font-style: italic;
 }
+
 .brenden-img {
   float: left;
   margin-right: 8px;
@@ -59,7 +156,7 @@
   padding-left: 15px;
   padding-top: 7px;
   border-radius: 16px;
-  margin-top: 24px;
+  margin-top: 54px;
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 24px;
@@ -68,6 +165,7 @@
 .gift-h2, .events-h1, .events-h2 {
   text-align: center;
 }
+
 .events-container {
   background-color: #5A72A0;
   border-radius: 10px;
