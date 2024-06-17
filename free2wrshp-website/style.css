@@ -1,10 +1,16 @@
-.home-body{
+html, body {
   height: 100%;
   margin: 0;
-  padding: 0;
+}
+
+.home-body{
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-image: url('https://fakazanews.com/wp-content/uploads/2024/03/Brenden-Praise-Mpoomy-Ledwaba.jpg');
   background-position: center;
   background-size: cover;
@@ -13,12 +19,14 @@
 }
 
 .home-container {
-  text-align: center;
+  text-align: center !important;
   color: #fff;
+  flex: 1;
 }
 
 .index-h1 {
   margin-top: 15px;
+  margin-left: 75px;
   color: white;
   font-family: "Playfair Display", sans-serif;
   font-weight: 600;
@@ -31,12 +39,13 @@
   font-weight: 400;
   margin-top: 50px;
   text-decoration: none;
-  padding: 98px 74px 74px 98px;
+  padding: 59px 34px;
   float: none;
 }
 
 .topnav a:hover {
   color: darkgrey;
+  text-decoration: underline;
 }
 
 #menu-toggle {
@@ -260,4 +269,20 @@ td {
   align-items: flex-start;
   background-attachment: fixed;
   opacity: 0.3;
+}
+
+footer {
+  background-color: #333;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer-h1 {
+  color: antiquewhite;
+}
+
+.footer-section i {
+  margin: 2px;
+  font-size: 30px;
+  color: black;
 }
